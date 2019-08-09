@@ -158,7 +158,7 @@ class PageOne(tk.Frame):
             tk.Entry.delete(E4, 0, 'end')
             tk.Entry.insert(E4, 0, resultado2)
 
-        L1 = tk.Label(self, text="Control Calc", )
+        L1 = tk.Label(self, text="Calculadora de Coordenadas", )
         L1.grid(row=0, column=1)
         L1.place(relx=0.5, rely=0)
         L2 = tk.Label(self, text="Latitude", )
@@ -339,6 +339,5 @@ class PageTwo(tk.Frame):
 if __name__ == "__main__":
     app = SampleApp()
     app.geometry('400x300')
-    app.iconbitmap('a-01.ico')
     app.title('Calc')
     app.mainloop()
